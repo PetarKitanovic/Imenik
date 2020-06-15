@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_splashtime_entries">
+        <item>Toast poruke</item>
+        <item>Notifikacije</item>
+    </string-array>
+
+    <string-array name="pref_splashtime_values">
+        <item>toast_key</item>
+        <item>notif_key</item>
+    </string-array>
+
+
+</resources>

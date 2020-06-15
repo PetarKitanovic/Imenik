@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+
+    <EditText
+        android:id="@+id/edit_ime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Unesite ime"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/edit_prezime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Unesite prezime"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/edit_adresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Unesite adresu"
+        android:inputType="textCapSentences" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/edit_nekretnina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Promeni" />
+
+        <Button
+            android:id="@+id/cancel_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odustani" />
+
+    </LinearLayout>
+
+</LinearLayout>
